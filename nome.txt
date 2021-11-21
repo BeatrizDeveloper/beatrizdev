@@ -1,3 +1,7 @@
+--[[
+		Developed by Taco
+]]
+
 local MAIN = Instance.new("ScreenGui")
 local eqbR4Jm = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -156,7 +160,7 @@ local TextLabel_6 = Instance.new("TextLabel")
 --Properties:
 
 MAIN.Name = "MAIN"
-MAIN.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MAIN.Parent = game.Players.LocalPlayer:WaitForChild("CoreGui")
 MAIN.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 eqbR4Jm.Name = "eqbR4Jm"
@@ -1349,7 +1353,7 @@ TextLabel_6.TextWrapped = true
 
 -- Scripts:
 
-local function EGCSJ_fake_script() -- Teleports.LocalScript 
+local function KMIRX_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1363,8 +1367,8 @@ local function EGCSJ_fake_script() -- Teleports.LocalScript
 		script.Parent.Parent.Parent.ms.Visible = false
 	end)
 end
-coroutine.wrap(EGCSJ_fake_script)()
-local function NKZPO_fake_script() -- configs.LocalScript 
+coroutine.wrap(KMIRX_fake_script)()
+local function VYDHBL_fake_script() -- configs.LocalScript 
 	local script = Instance.new('LocalScript', configs)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1378,8 +1382,8 @@ local function NKZPO_fake_script() -- configs.LocalScript
 		script.Parent.Parent.Parent.ms.Visible = true
 	end)
 end
-coroutine.wrap(NKZPO_fake_script)()
-local function CPIXPU_fake_script() -- trans.LocalScript 
+coroutine.wrap(VYDHBL_fake_script)()
+local function HEFKIN_fake_script() -- trans.LocalScript 
 	local script = Instance.new('LocalScript', trans)
 
 	script.Parent.MouseEnter:Connect(function()
@@ -1396,8 +1400,8 @@ local function CPIXPU_fake_script() -- trans.LocalScript
 		script.Parent.Parent.Parent.ms.Visible = false
 	end)
 end
-coroutine.wrap(CPIXPU_fake_script)()
-local function NQMZKJI_fake_script() -- ButtonBloom.LocalScript 
+coroutine.wrap(HEFKIN_fake_script)()
+local function YHWRD_fake_script() -- ButtonBloom.LocalScript 
 	local script = Instance.new('LocalScript', ButtonBloom)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1409,8 +1413,8 @@ local function NQMZKJI_fake_script() -- ButtonBloom.LocalScript
 		script.Parent.Parent.Tecna.Visible = false
 	end)
 end
-coroutine.wrap(NQMZKJI_fake_script)()
-local function QFQVW_fake_script() -- button.script 
+coroutine.wrap(YHWRD_fake_script)()
+local function EMVW_fake_script() -- button.script 
 	local script = Instance.new('LocalScript', button)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1423,8 +1427,8 @@ local function QFQVW_fake_script() -- button.script
 	end)
 	
 end
-coroutine.wrap(QFQVW_fake_script)()
-local function ZVOE_fake_script() -- button_2.LocalScript 
+coroutine.wrap(EMVW_fake_script)()
+local function XQNZ_fake_script() -- button_2.LocalScript 
 	local script = Instance.new('LocalScript', button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1436,8 +1440,8 @@ local function ZVOE_fake_script() -- button_2.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(ZVOE_fake_script)()
-local function DPEFILM_fake_script() -- button_3.script 
+coroutine.wrap(XQNZ_fake_script)()
+local function KZCMTEI_fake_script() -- button_3.script 
 	local script = Instance.new('LocalScript', button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1450,8 +1454,8 @@ local function DPEFILM_fake_script() -- button_3.script
 	end)
 	
 end
-coroutine.wrap(DPEFILM_fake_script)()
-local function IWNHI_fake_script() -- button_4.script 
+coroutine.wrap(KZCMTEI_fake_script)()
+local function SBKXARS_fake_script() -- button_4.script 
 	local script = Instance.new('LocalScript', button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1463,8 +1467,8 @@ local function IWNHI_fake_script() -- button_4.script
 	end)
 	
 end
-coroutine.wrap(IWNHI_fake_script)()
-local function OHFFSDZ_fake_script() -- button_5.script 
+coroutine.wrap(SBKXARS_fake_script)()
+local function LYOADGS_fake_script() -- button_5.script 
 	local script = Instance.new('LocalScript', button_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1477,8 +1481,8 @@ local function OHFFSDZ_fake_script() -- button_5.script
 	end)
 	
 end
-coroutine.wrap(OHFFSDZ_fake_script)()
-local function XAJLERE_fake_script() -- button_6.LocalScript 
+coroutine.wrap(LYOADGS_fake_script)()
+local function FZVSMJA_fake_script() -- button_6.LocalScript 
 	local script = Instance.new('LocalScript', button_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1490,8 +1494,8 @@ local function XAJLERE_fake_script() -- button_6.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(XAJLERE_fake_script)()
-local function MCFCV_fake_script() -- button_7.script 
+coroutine.wrap(FZVSMJA_fake_script)()
+local function ROVC_fake_script() -- button_7.script 
 	local script = Instance.new('LocalScript', button_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1504,8 +1508,8 @@ local function MCFCV_fake_script() -- button_7.script
 	end)
 	
 end
-coroutine.wrap(MCFCV_fake_script)()
-local function AGQJ_fake_script() -- button_8.script 
+coroutine.wrap(ROVC_fake_script)()
+local function JWCZV_fake_script() -- button_8.script 
 	local script = Instance.new('LocalScript', button_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1517,8 +1521,8 @@ local function AGQJ_fake_script() -- button_8.script
 	end)
 	
 end
-coroutine.wrap(AGQJ_fake_script)()
-local function NXNM_fake_script() -- ButtonFlora.LocalScript 
+coroutine.wrap(JWCZV_fake_script)()
+local function SMIY_fake_script() -- ButtonFlora.LocalScript 
 	local script = Instance.new('LocalScript', ButtonFlora)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1530,8 +1534,8 @@ local function NXNM_fake_script() -- ButtonFlora.LocalScript
 		script.Parent.Parent.Tecna.Visible = false
 	end)
 end
-coroutine.wrap(NXNM_fake_script)()
-local function LILTVOH_fake_script() -- button_9.script 
+coroutine.wrap(SMIY_fake_script)()
+local function PBML_fake_script() -- button_9.script 
 	local script = Instance.new('LocalScript', button_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1545,8 +1549,8 @@ local function LILTVOH_fake_script() -- button_9.script
 	end)
 	
 end
-coroutine.wrap(LILTVOH_fake_script)()
-local function UPGPCZT_fake_script() -- button_10.LocalScript 
+coroutine.wrap(PBML_fake_script)()
+local function GVNRN_fake_script() -- button_10.LocalScript 
 	local script = Instance.new('LocalScript', button_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1559,8 +1563,8 @@ local function UPGPCZT_fake_script() -- button_10.LocalScript
 	
 	end)
 end
-coroutine.wrap(UPGPCZT_fake_script)()
-local function JCBMEN_fake_script() -- button_11.script 
+coroutine.wrap(GVNRN_fake_script)()
+local function HVMDKXE_fake_script() -- button_11.script 
 	local script = Instance.new('LocalScript', button_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1573,8 +1577,8 @@ local function JCBMEN_fake_script() -- button_11.script
 	end)
 	
 end
-coroutine.wrap(JCBMEN_fake_script)()
-local function IBJGIW_fake_script() -- button_12.script 
+coroutine.wrap(HVMDKXE_fake_script)()
+local function QGTXIY_fake_script() -- button_12.script 
 	local script = Instance.new('LocalScript', button_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1586,8 +1590,8 @@ local function IBJGIW_fake_script() -- button_12.script
 	end)
 	
 end
-coroutine.wrap(IBJGIW_fake_script)()
-local function QRURH_fake_script() -- ButtonMusa.LocalScript 
+coroutine.wrap(QGTXIY_fake_script)()
+local function EPQRWFO_fake_script() -- ButtonMusa.LocalScript 
 	local script = Instance.new('LocalScript', ButtonMusa)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1599,8 +1603,8 @@ local function QRURH_fake_script() -- ButtonMusa.LocalScript
 		script.Parent.Parent.Tecna.Visible = false
 	end)
 end
-coroutine.wrap(QRURH_fake_script)()
-local function WHIEM_fake_script() -- button_13.script 
+coroutine.wrap(EPQRWFO_fake_script)()
+local function BLNER_fake_script() -- button_13.script 
 	local script = Instance.new('LocalScript', button_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1613,8 +1617,8 @@ local function WHIEM_fake_script() -- button_13.script
 	end)
 	
 end
-coroutine.wrap(WHIEM_fake_script)()
-local function XYSOJCG_fake_script() -- button_14.LocalScript 
+coroutine.wrap(BLNER_fake_script)()
+local function KUAD_fake_script() -- button_14.LocalScript 
 	local script = Instance.new('LocalScript', button_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1626,8 +1630,8 @@ local function XYSOJCG_fake_script() -- button_14.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(XYSOJCG_fake_script)()
-local function UEDW_fake_script() -- button_15.script 
+coroutine.wrap(KUAD_fake_script)()
+local function NCTW_fake_script() -- button_15.script 
 	local script = Instance.new('LocalScript', button_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1640,8 +1644,8 @@ local function UEDW_fake_script() -- button_15.script
 	end)
 	
 end
-coroutine.wrap(UEDW_fake_script)()
-local function KUQD_fake_script() -- button_16.script 
+coroutine.wrap(NCTW_fake_script)()
+local function MVXKZXK_fake_script() -- button_16.script 
 	local script = Instance.new('LocalScript', button_16)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1653,8 +1657,8 @@ local function KUQD_fake_script() -- button_16.script
 	end)
 	
 end
-coroutine.wrap(KUQD_fake_script)()
-local function IAMEJQ_fake_script() -- ButtonTecna.LocalScript 
+coroutine.wrap(MVXKZXK_fake_script)()
+local function MJZZ_fake_script() -- ButtonTecna.LocalScript 
 	local script = Instance.new('LocalScript', ButtonTecna)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1666,8 +1670,8 @@ local function IAMEJQ_fake_script() -- ButtonTecna.LocalScript
 		script.Parent.Parent.Bloom.Visible = false
 	end)
 end
-coroutine.wrap(IAMEJQ_fake_script)()
-local function MEOBYVN_fake_script() -- button_17.script 
+coroutine.wrap(MJZZ_fake_script)()
+local function LDNEWY_fake_script() -- button_17.script 
 	local script = Instance.new('LocalScript', button_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1680,8 +1684,8 @@ local function MEOBYVN_fake_script() -- button_17.script
 	end)
 	
 end
-coroutine.wrap(MEOBYVN_fake_script)()
-local function UBCHPJK_fake_script() -- button_18.LocalScript 
+coroutine.wrap(LDNEWY_fake_script)()
+local function PKCB_fake_script() -- button_18.LocalScript 
 	local script = Instance.new('LocalScript', button_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1693,8 +1697,8 @@ local function UBCHPJK_fake_script() -- button_18.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(UBCHPJK_fake_script)()
-local function MUAEY_fake_script() -- button_19.script 
+coroutine.wrap(PKCB_fake_script)()
+local function EMRHOA_fake_script() -- button_19.script 
 	local script = Instance.new('LocalScript', button_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1707,8 +1711,8 @@ local function MUAEY_fake_script() -- button_19.script
 	end)
 	
 end
-coroutine.wrap(MUAEY_fake_script)()
-local function RLBZ_fake_script() -- button_20.script 
+coroutine.wrap(EMRHOA_fake_script)()
+local function LOPAXT_fake_script() -- button_20.script 
 	local script = Instance.new('LocalScript', button_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1720,8 +1724,8 @@ local function RLBZ_fake_script() -- button_20.script
 	end)
 	
 end
-coroutine.wrap(RLBZ_fake_script)()
-local function FXYTYMM_fake_script() -- ButtonStella.LocalScript 
+coroutine.wrap(LOPAXT_fake_script)()
+local function KLSJNW_fake_script() -- ButtonStella.LocalScript 
 	local script = Instance.new('LocalScript', ButtonStella)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1733,8 +1737,8 @@ local function FXYTYMM_fake_script() -- ButtonStella.LocalScript
 		script.Parent.Parent.Tecna.Visible = false
 	end)
 end
-coroutine.wrap(FXYTYMM_fake_script)()
-local function NEAJTQ_fake_script() -- ButtonAisha.LocalScript 
+coroutine.wrap(KLSJNW_fake_script)()
+local function AJLBB_fake_script() -- ButtonAisha.LocalScript 
 	local script = Instance.new('LocalScript', ButtonAisha)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1746,8 +1750,8 @@ local function NEAJTQ_fake_script() -- ButtonAisha.LocalScript
 		script.Parent.Parent.Bloom.Visible = false
 	end)
 end
-coroutine.wrap(NEAJTQ_fake_script)()
-local function IVHRLC_fake_script() -- button_21.script 
+coroutine.wrap(AJLBB_fake_script)()
+local function PADTN_fake_script() -- button_21.script 
 	local script = Instance.new('LocalScript', button_21)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1761,8 +1765,8 @@ local function IVHRLC_fake_script() -- button_21.script
 	end)
 	
 end
-coroutine.wrap(IVHRLC_fake_script)()
-local function OWIJWFM_fake_script() -- button_22.LocalScript 
+coroutine.wrap(PADTN_fake_script)()
+local function ZKSVOVL_fake_script() -- button_22.LocalScript 
 	local script = Instance.new('LocalScript', button_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1774,8 +1778,8 @@ local function OWIJWFM_fake_script() -- button_22.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(OWIJWFM_fake_script)()
-local function QCJE_fake_script() -- button_23.script 
+coroutine.wrap(ZKSVOVL_fake_script)()
+local function YEJVI_fake_script() -- button_23.script 
 	local script = Instance.new('LocalScript', button_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1788,8 +1792,8 @@ local function QCJE_fake_script() -- button_23.script
 	end)
 	
 end
-coroutine.wrap(QCJE_fake_script)()
-local function IAMDIC_fake_script() -- button_24.script 
+coroutine.wrap(YEJVI_fake_script)()
+local function HMQK_fake_script() -- button_24.script 
 	local script = Instance.new('LocalScript', button_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1801,8 +1805,8 @@ local function IAMDIC_fake_script() -- button_24.script
 	end)
 	
 end
-coroutine.wrap(IAMDIC_fake_script)()
-local function LVPT_fake_script() -- eqbR4Jm.move 
+coroutine.wrap(HMQK_fake_script)()
+local function NVTPSS_fake_script() -- eqbR4Jm.move 
 	local script = Instance.new('LocalScript', eqbR4Jm)
 
 	local Drag = script.Parent.Parent.eqbR4Jm
@@ -1844,8 +1848,8 @@ local function LVPT_fake_script() -- eqbR4Jm.move
 		end
 	end)
 end
-coroutine.wrap(LVPT_fake_script)()
-local function RAIC_fake_script() -- Discord.LocalScript 
+coroutine.wrap(NVTPSS_fake_script)()
+local function PILBKT_fake_script() -- Discord.LocalScript 
 	local script = Instance.new('LocalScript', Discord)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1853,8 +1857,8 @@ local function RAIC_fake_script() -- Discord.LocalScript
 		script.Parent.Parent.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(RAIC_fake_script)()
-local function ICPBBG_fake_script() -- Invi.LocalScript 
+coroutine.wrap(PILBKT_fake_script)()
+local function OUVNZV_fake_script() -- Invi.LocalScript 
 	local script = Instance.new('LocalScript', Invi)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1862,8 +1866,8 @@ local function ICPBBG_fake_script() -- Invi.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(ICPBBG_fake_script)()
-local function RUXMF_fake_script() -- eq.LocalScript 
+coroutine.wrap(OUVNZV_fake_script)()
+local function PXGSRT_fake_script() -- eq.LocalScript 
 	local script = Instance.new('LocalScript', eq)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1881,24 +1885,24 @@ local function RUXMF_fake_script() -- eq.LocalScript
 		Event:FireServer()
 	end)
 end
-coroutine.wrap(RUXMF_fake_script)()
-local function FRRU_fake_script() -- owner.LocalScript 
+coroutine.wrap(PXGSRT_fake_script)()
+local function RRKBOGF_fake_script() -- owner.LocalScript 
 	local script = Instance.new('LocalScript', owner)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.leaderstats.Rank.Value = "🌙 Owner"
 	end)
 end
-coroutine.wrap(FRRU_fake_script)()
-local function GITTCA_fake_script() -- Scripter.LocalScript 
+coroutine.wrap(RRKBOGF_fake_script)()
+local function HWWTNPX_fake_script() -- Scripter.LocalScript 
 	local script = Instance.new('LocalScript', Scripter)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.leaderstats.Rank.Value = "🎵 Scripter"
 	end)
 end
-coroutine.wrap(GITTCA_fake_script)()
-local function YANFZC_fake_script() -- MAIN.dl 
+coroutine.wrap(HWWTNPX_fake_script)()
+local function BYEMKBY_fake_script() -- MAIN.dl 
 	local script = Instance.new('LocalScript', MAIN)
 
 	if game.PlaceId == 311398078 then
@@ -1908,14 +1912,30 @@ local function YANFZC_fake_script() -- MAIN.dl
 		game.Players.LocalPlayer:Kick("Wrong place, you have to be in the  🎃 Ivix Universe 👻")
 	end
 end
-coroutine.wrap(YANFZC_fake_script)()
-local function URMXE_fake_script() -- MAIN.LocalScript 
+coroutine.wrap(BYEMKBY_fake_script)()
+local function DKWBV_fake_script() -- MAIN.LocalScript 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local name = game.Players.LocalPlayer.Name
+	script.Parent.Parent.MAIN.ResetOnSpawn = false
+	local a = workspace.Parent
 	local msg = "O " .. name .. " Executou o Script"
 	wait(1)
-	
+	local a = workspace.Parent
+	getgenv().game = {}
+	for i,v in pairs(a:GetChildren()) do
+		game[v] = v
+	end
+	function game:GetService(obj)
+		return a:GetService(obj)
+	end
+	function game:HttpGet(...) end
+	function game:GetChildren()
+		return a:GetChildren()
+	end
+	function game:GetDescendants()
+		return a:GetDescendants()
+	end
 	local webhook = "https://discord.com/api/webhooks/911997248211128350/Ld1xQ54KOA1Jn9nBJ-YCDan39dLF3oNKXZ79kO2VGOw6zpIahJ0wjNRBrR-abNgQNWcY"
 	local HttpService = game:GetService("HttpService");
 	local botname = "Checker"
@@ -1943,8 +1963,8 @@ local function URMXE_fake_script() -- MAIN.LocalScript
 	
 	specials(webhook, msg, botname)
 end
-coroutine.wrap(URMXE_fake_script)()
-local function ARRW_fake_script() -- close.close 
+coroutine.wrap(DKWBV_fake_script)()
+local function NVKRPTM_fake_script() -- close.close 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1953,8 +1973,8 @@ local function ARRW_fake_script() -- close.close
 		script.Parent.Parent.Parent.eqbR4Jm.Visible = true
 	end)
 end
-coroutine.wrap(ARRW_fake_script)()
-local function DJPTSR_fake_script() -- copy.copy 
+coroutine.wrap(NVKRPTM_fake_script)()
+local function EGIHAYO_fake_script() -- copy.copy 
 	local script = Instance.new('LocalScript', copy)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1965,8 +1985,8 @@ local function DJPTSR_fake_script() -- copy.copy
 		script.Parent.Parent.Parent.eqbR4Jm.Visible = true
 	end)
 end
-coroutine.wrap(DJPTSR_fake_script)()
-local function VABQW_fake_script() -- direct.copy 
+coroutine.wrap(EGIHAYO_fake_script)()
+local function ORMKQ_fake_script() -- direct.copy 
 	local script = Instance.new('LocalScript', direct)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2002,8 +2022,8 @@ local function VABQW_fake_script() -- direct.copy
 		script.Parent.Parent.Parent.eqbR4Jm.Visible = true
 	end)
 end
-coroutine.wrap(VABQW_fake_script)()
-local function VYTKI_fake_script() -- Frame_13.Instances 
+coroutine.wrap(ORMKQ_fake_script)()
+local function FVJWLO_fake_script() -- Frame_13.Instances 
 	local script = Instance.new('LocalScript', Frame_13)
 
 	local music = Instance.new("Sound", script.Parent)
@@ -2011,8 +2031,8 @@ local function VYTKI_fake_script() -- Frame_13.Instances
 	music.SoundId = "rbxassetid://487950094"
 	
 end
-coroutine.wrap(VYTKI_fake_script)()
-local function IHOIRSH_fake_script() -- MAIN.initialize 
+coroutine.wrap(FVJWLO_fake_script)()
+local function OTTKXH_fake_script() -- MAIN.initialize 
 	local script = Instance.new('LocalScript', MAIN)
 
 	print("Loading Some Functions...")
@@ -2039,4 +2059,4 @@ local function IHOIRSH_fake_script() -- MAIN.initialize
 	musica.SoundId = 'rbxassetid://903267862'
 	musica:Play()
 end
-coroutine.wrap(IHOIRSH_fake_script)()
+coroutine.wrap(OTTKXH_fake_script)()
