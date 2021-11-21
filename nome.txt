@@ -1,1 +1,2073 @@
-print("teste")
+
+local MAIN = Instance.new("ScreenGui")
+local eqbR4Jm = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local bar = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Teleports = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local configs = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local trans = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local tran = Instance.new("Frame")
+local ButtonBloom = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Stella = Instance.new("Frame")
+local SHallowinx = Instance.new("TextLabel")
+local button = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local SHinter = Instance.new("TextLabel")
+local button_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local SDreamix = Instance.new("TextLabel")
+local button_3 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local SOnyrix = Instance.new("TextLabel")
+local button_4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local Bloom = Instance.new("Frame")
+local BHallowinx = Instance.new("TextLabel")
+local button_5 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local BHinter = Instance.new("TextLabel")
+local button_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local BDreamix = Instance.new("TextLabel")
+local button_7 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local BOnyrix = Instance.new("TextLabel")
+local button_8 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local ButtonFlora = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Flora = Instance.new("Frame")
+local FHallowinx = Instance.new("TextLabel")
+local button_9 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local FHinter = Instance.new("TextLabel")
+local button_10 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
+local FDreamix = Instance.new("TextLabel")
+local button_11 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local FOnyrix = Instance.new("TextLabel")
+local button_12 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local ButtonMusa = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Musa = Instance.new("Frame")
+local MHallowinx = Instance.new("TextLabel")
+local button_13 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local MHinter = Instance.new("TextLabel")
+local button_14 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
+local MDreamix = Instance.new("TextLabel")
+local button_15 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local MOnyrix = Instance.new("TextLabel")
+local button_16 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local ButtonTecna = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Tecna = Instance.new("Frame")
+local THallowinx = Instance.new("TextLabel")
+local button_17 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local THinter = Instance.new("TextLabel")
+local button_18 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
+local TDreamix = Instance.new("TextLabel")
+local button_19 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Tnyrix = Instance.new("TextLabel")
+local button_20 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local ButtonStella = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local ButtonAisha = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Aisha = Instance.new("Frame")
+local AHallowinx = Instance.new("TextLabel")
+local button_21 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local AHinter = Instance.new("TextLabel")
+local button_22 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
+local ADreamix = Instance.new("TextLabel")
+local button_23 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local AOnyrix = Instance.new("TextLabel")
+local button_24 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local ms = Instance.new("Frame")
+local UICorner_41 = Instance.new("UICorner")
+local Discord = Instance.new("TextButton")
+local check = Instance.new("ImageLabel")
+local UICorner_42 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_8 = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local Frame_10 = Instance.new("Frame")
+local Frame_11 = Instance.new("Frame")
+local Invi = Instance.new("TextButton")
+local check_2 = Instance.new("ImageLabel")
+local UICorner_43 = Instance.new("UICorner")
+local Frame_12 = Instance.new("Frame")
+local eq = Instance.new("TextButton")
+local check_3 = Instance.new("ImageLabel")
+local UICorner_44 = Instance.new("UICorner")
+local owner = Instance.new("TextButton")
+local check_4 = Instance.new("ImageLabel")
+local UICorner_45 = Instance.new("UICorner")
+local Scripter = Instance.new("TextButton")
+local check_5 = Instance.new("ImageLabel")
+local UICorner_46 = Instance.new("UICorner")
+local loading = Instance.new("TextButton")
+local check_6 = Instance.new("ImageLabel")
+local UICorner_47 = Instance.new("UICorner")
+local Frame_13 = Instance.new("Frame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_48 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local close = Instance.new("ImageButton")
+local copy = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local direct = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+MAIN.Name = "MAIN"
+MAIN.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MAIN.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+eqbR4Jm.Name = "eqbR4Jm"
+eqbR4Jm.Parent = MAIN
+eqbR4Jm.BackgroundColor3 = Color3.fromRGB(206, 137, 206)
+eqbR4Jm.Position = UDim2.new(0.351284862, 0, 0.325077415, 0)
+eqbR4Jm.Size = UDim2.new(0, 481, 0, 225)
+
+UICorner.Parent = eqbR4Jm
+
+TextLabel.Parent = eqbR4Jm
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 472, 0, 23)
+TextLabel.Font = Enum.Font.TitilliumWeb
+TextLabel.Text = "Winx Fukr"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 40.000
+TextLabel.TextWrapped = true
+
+bar.Name = "bar"
+bar.Parent = eqbR4Jm
+bar.BackgroundColor3 = Color3.fromRGB(176, 117, 176)
+bar.Size = UDim2.new(0, 100, 0, 225)
+
+UICorner_2.Parent = bar
+
+Teleports.Name = "Teleports"
+Teleports.Parent = bar
+Teleports.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.BackgroundTransparency = 1.000
+Teleports.Position = UDim2.new(0, 0, 0.204444438, 0)
+Teleports.Size = UDim2.new(0, 100, 0, 30)
+Teleports.Font = Enum.Font.SourceSansBold
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.fromRGB(255, 255, 255)
+Teleports.TextSize = 14.000
+Teleports.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Frame.Parent = Teleports
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(0, 100, 0, 1)
+
+Frame_2.Parent = Teleports
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.966666639, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 1)
+
+configs.Name = "configs"
+configs.Parent = bar
+configs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+configs.BackgroundTransparency = 1.000
+configs.Position = UDim2.new(0, 0, 0.822222292, 0)
+configs.Size = UDim2.new(0, 100, 0, 30)
+configs.Font = Enum.Font.SourceSansBold
+configs.Text = "Misc"
+configs.TextColor3 = Color3.fromRGB(255, 255, 255)
+configs.TextSize = 14.000
+configs.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Frame_3.Parent = configs
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderSizePixel = 0
+Frame_3.Size = UDim2.new(0, 100, 0, 1)
+
+Frame_4.Parent = configs
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.966666639, 0)
+Frame_4.Size = UDim2.new(0, 100, 0, 1)
+
+TextLabel_2.Parent = bar
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 100, 0, 23)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Enjoy"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+trans.Name = "trans"
+trans.Parent = bar
+trans.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trans.BackgroundTransparency = 1.000
+trans.Position = UDim2.new(0, 0, 0.333333313, 0)
+trans.Size = UDim2.new(0, 100, 0, 30)
+trans.Font = Enum.Font.SourceSansBold
+trans.Text = "Transformations"
+trans.TextColor3 = Color3.fromRGB(255, 255, 255)
+trans.TextSize = 14.000
+trans.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+trans.TextWrapped = true
+
+Frame_5.Parent = trans
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BorderSizePixel = 0
+Frame_5.Size = UDim2.new(0, 100, 0, 1)
+
+Frame_6.Parent = trans
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 0.966666639, 0)
+Frame_6.Size = UDim2.new(0, 100, 0, 1)
+
+tran.Name = "tran"
+tran.Parent = eqbR4Jm
+tran.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+tran.BackgroundTransparency = 0.700
+tran.BorderColor3 = Color3.fromRGB(27, 42, 53)
+tran.Position = UDim2.new(0.233407572, 0, 0.142222226, 0)
+tran.Size = UDim2.new(0, 359, 0, 175)
+tran.Visible = false
+
+ButtonBloom.Name = "ButtonBloom"
+ButtonBloom.Parent = tran
+ButtonBloom.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+ButtonBloom.BorderSizePixel = 0
+ButtonBloom.Position = UDim2.new(0.011572198, 0, 0.828571439, 0)
+ButtonBloom.Size = UDim2.new(0, 51, 0, 21)
+ButtonBloom.Font = Enum.Font.SourceSans
+ButtonBloom.Text = "Bloom"
+ButtonBloom.TextColor3 = Color3.fromRGB(255, 85, 0)
+ButtonBloom.TextScaled = true
+ButtonBloom.TextSize = 14.000
+ButtonBloom.TextWrapped = true
+
+UICorner_3.Parent = ButtonBloom
+
+Stella.Name = "Stella"
+Stella.Parent = tran
+Stella.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Stella.BackgroundTransparency = 0.700
+Stella.Size = UDim2.new(0, 359, 0, 137)
+Stella.Visible = false
+
+SHallowinx.Name = "SHallowinx"
+SHallowinx.Parent = Stella
+SHallowinx.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+SHallowinx.BackgroundTransparency = 1.000
+SHallowinx.Position = UDim2.new(0, 0, 0.0914285183, 0)
+SHallowinx.Size = UDim2.new(0, 127, 0, 24)
+SHallowinx.Font = Enum.Font.SourceSans
+SHallowinx.Text = "StellaHallowinx"
+SHallowinx.TextColor3 = Color3.fromRGB(213, 71, 0)
+SHallowinx.TextScaled = true
+SHallowinx.TextSize = 14.000
+SHallowinx.TextWrapped = true
+
+button.Name = "button"
+button.Parent = SHallowinx
+button.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button.Position = UDim2.new(0.0317460336, 0, 1.24999988, 0)
+button.Size = UDim2.new(0, 117, 0, 26)
+button.Font = Enum.Font.TitilliumWeb
+button.Text = "Set"
+button.TextColor3 = Color3.fromRGB(213, 71, 0)
+button.TextScaled = true
+button.TextSize = 14.000
+button.TextWrapped = true
+
+UICorner_4.Parent = button
+
+SHinter.Name = "SHinter"
+SHinter.Parent = Stella
+SHinter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SHinter.BackgroundTransparency = 1.000
+SHinter.Position = UDim2.new(0.592920303, 0, 0.0914285704, 0)
+SHinter.Size = UDim2.new(0, 126, 0, 24)
+SHinter.Font = Enum.Font.SourceSans
+SHinter.Text = "StellaWinter"
+SHinter.TextColor3 = Color3.fromRGB(103, 164, 255)
+SHinter.TextScaled = true
+SHinter.TextSize = 14.000
+SHinter.TextWrapped = true
+
+button_2.Name = "button"
+button_2.Parent = SHinter
+button_2.BackgroundColor3 = Color3.fromRGB(103, 164, 255)
+button_2.Position = UDim2.new(0.0317460336, 0, 1.16666663, 0)
+button_2.Size = UDim2.new(0, 117, 0, 26)
+button_2.Font = Enum.Font.TitilliumWeb
+button_2.Text = "Set"
+button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_2.TextScaled = true
+button_2.TextSize = 14.000
+button_2.TextWrapped = true
+
+UICorner_5.Parent = button_2
+
+UICorner_6.Parent = Stella
+
+SDreamix.Name = "SDreamix"
+SDreamix.Parent = Stella
+SDreamix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SDreamix.BackgroundTransparency = 1.000
+SDreamix.Position = UDim2.new(0, 0, 0.522085428, 0)
+SDreamix.Size = UDim2.new(0, 127, 0, 24)
+SDreamix.Font = Enum.Font.SourceSans
+SDreamix.Text = "StellaDreamix"
+SDreamix.TextColor3 = Color3.fromRGB(85, 255, 255)
+SDreamix.TextScaled = true
+SDreamix.TextSize = 14.000
+SDreamix.TextWrapped = true
+
+button_3.Name = "button"
+button_3.Parent = SDreamix
+button_3.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_3.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_3.Size = UDim2.new(0, 117, 0, 24)
+button_3.Font = Enum.Font.TitilliumWeb
+button_3.Text = "Set"
+button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_3.TextScaled = true
+button_3.TextSize = 14.000
+button_3.TextWrapped = true
+
+UICorner_7.Parent = button_3
+
+SOnyrix.Name = "SOnyrix"
+SOnyrix.Parent = Stella
+SOnyrix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SOnyrix.BackgroundTransparency = 1.000
+SOnyrix.Position = UDim2.new(0.587743759, 0, 0.543983221, 0)
+SOnyrix.Size = UDim2.new(0, 127, 0, 24)
+SOnyrix.Font = Enum.Font.SourceSans
+SOnyrix.Text = "StellaOnyrix"
+SOnyrix.TextColor3 = Color3.fromRGB(85, 255, 127)
+SOnyrix.TextScaled = true
+SOnyrix.TextSize = 14.000
+SOnyrix.TextWrapped = true
+
+button_4.Name = "button"
+button_4.Parent = SOnyrix
+button_4.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_4.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_4.Size = UDim2.new(0, 117, 0, 24)
+button_4.Font = Enum.Font.TitilliumWeb
+button_4.Text = "Set"
+button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_4.TextScaled = true
+button_4.TextSize = 14.000
+button_4.TextWrapped = true
+
+UICorner_8.Parent = button_4
+
+Frame_7.Parent = tran
+Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.777142882, 0)
+Frame_7.Size = UDim2.new(0, 359, 0, 1)
+
+UICorner_9.Parent = Frame_7
+
+UICorner_10.Parent = tran
+
+Bloom.Name = "Bloom"
+Bloom.Parent = tran
+Bloom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bloom.BackgroundTransparency = 0.700
+Bloom.Size = UDim2.new(0, 359, 0, 137)
+Bloom.Visible = false
+
+BHallowinx.Name = "BHallowinx"
+BHallowinx.Parent = Bloom
+BHallowinx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BHallowinx.BackgroundTransparency = 1.000
+BHallowinx.Position = UDim2.new(0, 0, 0.0914285183, 0)
+BHallowinx.Size = UDim2.new(0, 127, 0, 24)
+BHallowinx.Font = Enum.Font.SourceSans
+BHallowinx.Text = "BloomHallowinx"
+BHallowinx.TextColor3 = Color3.fromRGB(213, 71, 0)
+BHallowinx.TextScaled = true
+BHallowinx.TextSize = 14.000
+BHallowinx.TextWrapped = true
+
+button_5.Name = "button"
+button_5.Parent = BHallowinx
+button_5.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_5.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_5.Size = UDim2.new(0, 117, 0, 24)
+button_5.Font = Enum.Font.TitilliumWeb
+button_5.Text = "Set"
+button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_5.TextScaled = true
+button_5.TextSize = 14.000
+button_5.TextWrapped = true
+
+UICorner_11.Parent = button_5
+
+BHinter.Name = "BHinter"
+BHinter.Parent = Bloom
+BHinter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BHinter.BackgroundTransparency = 1.000
+BHinter.Position = UDim2.new(0.592920303, 0, 0.0914285704, 0)
+BHinter.Size = UDim2.new(0, 126, 0, 24)
+BHinter.Font = Enum.Font.SourceSans
+BHinter.Text = "BloomWinter"
+BHinter.TextColor3 = Color3.fromRGB(103, 164, 255)
+BHinter.TextScaled = true
+BHinter.TextSize = 14.000
+BHinter.TextWrapped = true
+
+button_6.Name = "button"
+button_6.Parent = BHinter
+button_6.BackgroundColor3 = Color3.fromRGB(103, 164, 255)
+button_6.Position = UDim2.new(0.0317460336, 0, 0.958333313, 0)
+button_6.Size = UDim2.new(0, 117, 0, 25)
+button_6.Font = Enum.Font.TitilliumWeb
+button_6.Text = "Set"
+button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_6.TextScaled = true
+button_6.TextSize = 14.000
+button_6.TextWrapped = true
+
+UICorner_12.Parent = button_6
+
+UICorner_13.Parent = Bloom
+
+BDreamix.Name = "BDreamix"
+BDreamix.Parent = Bloom
+BDreamix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BDreamix.BackgroundTransparency = 1.000
+BDreamix.Position = UDim2.new(0, 0, 0.522085428, 0)
+BDreamix.Size = UDim2.new(0, 127, 0, 24)
+BDreamix.Font = Enum.Font.SourceSans
+BDreamix.Text = "BloomDreamix"
+BDreamix.TextColor3 = Color3.fromRGB(85, 255, 255)
+BDreamix.TextScaled = true
+BDreamix.TextSize = 14.000
+BDreamix.TextWrapped = true
+
+button_7.Name = "button"
+button_7.Parent = BDreamix
+button_7.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_7.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_7.Size = UDim2.new(0, 117, 0, 24)
+button_7.Font = Enum.Font.TitilliumWeb
+button_7.Text = "Set"
+button_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_7.TextScaled = true
+button_7.TextSize = 14.000
+button_7.TextWrapped = true
+
+UICorner_14.Parent = button_7
+
+BOnyrix.Name = "BOnyrix"
+BOnyrix.Parent = Bloom
+BOnyrix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BOnyrix.BackgroundTransparency = 1.000
+BOnyrix.Position = UDim2.new(0.587743759, 0, 0.543983221, 0)
+BOnyrix.Size = UDim2.new(0, 127, 0, 24)
+BOnyrix.Font = Enum.Font.SourceSans
+BOnyrix.Text = "BloomOnyrix"
+BOnyrix.TextColor3 = Color3.fromRGB(85, 255, 127)
+BOnyrix.TextScaled = true
+BOnyrix.TextSize = 14.000
+BOnyrix.TextWrapped = true
+
+button_8.Name = "button"
+button_8.Parent = BOnyrix
+button_8.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_8.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_8.Size = UDim2.new(0, 117, 0, 24)
+button_8.Font = Enum.Font.TitilliumWeb
+button_8.Text = "Set"
+button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_8.TextScaled = true
+button_8.TextSize = 14.000
+button_8.TextWrapped = true
+
+UICorner_15.Parent = button_8
+
+ButtonFlora.Name = "ButtonFlora"
+ButtonFlora.Parent = tran
+ButtonFlora.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+ButtonFlora.BorderSizePixel = 0
+ButtonFlora.Position = UDim2.new(0.337619334, 0, 0.828571439, 0)
+ButtonFlora.Size = UDim2.new(0, 51, 0, 21)
+ButtonFlora.Font = Enum.Font.SourceSans
+ButtonFlora.Text = "Flora"
+ButtonFlora.TextColor3 = Color3.fromRGB(72, 144, 0)
+ButtonFlora.TextScaled = true
+ButtonFlora.TextSize = 14.000
+ButtonFlora.TextWrapped = true
+
+UICorner_16.Parent = ButtonFlora
+
+Flora.Name = "Flora"
+Flora.Parent = tran
+Flora.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Flora.BackgroundTransparency = 0.700
+Flora.Size = UDim2.new(0, 359, 0, 137)
+Flora.Visible = false
+
+FHallowinx.Name = "FHallowinx"
+FHallowinx.Parent = Flora
+FHallowinx.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+FHallowinx.BackgroundTransparency = 1.000
+FHallowinx.Position = UDim2.new(0, 0, 0.0914285183, 0)
+FHallowinx.Size = UDim2.new(0, 127, 0, 24)
+FHallowinx.Font = Enum.Font.SourceSans
+FHallowinx.Text = "FloraHallowinx"
+FHallowinx.TextColor3 = Color3.fromRGB(213, 71, 0)
+FHallowinx.TextScaled = true
+FHallowinx.TextSize = 14.000
+FHallowinx.TextWrapped = true
+
+button_9.Name = "button"
+button_9.Parent = FHallowinx
+button_9.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_9.Position = UDim2.new(0.0317460336, 0, 1.24999988, 0)
+button_9.Size = UDim2.new(0, 117, 0, 26)
+button_9.Font = Enum.Font.TitilliumWeb
+button_9.Text = "Set"
+button_9.TextColor3 = Color3.fromRGB(213, 71, 0)
+button_9.TextScaled = true
+button_9.TextSize = 14.000
+button_9.TextWrapped = true
+
+UICorner_17.Parent = button_9
+
+FHinter.Name = "FHinter"
+FHinter.Parent = Flora
+FHinter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FHinter.BackgroundTransparency = 1.000
+FHinter.Position = UDim2.new(0.592920303, 0, 0.0914285704, 0)
+FHinter.Size = UDim2.new(0, 126, 0, 24)
+FHinter.Font = Enum.Font.SourceSans
+FHinter.Text = "FloraWinter"
+FHinter.TextColor3 = Color3.fromRGB(103, 164, 255)
+FHinter.TextScaled = true
+FHinter.TextSize = 14.000
+FHinter.TextWrapped = true
+
+button_10.Name = "button"
+button_10.Parent = FHinter
+button_10.BackgroundColor3 = Color3.fromRGB(103, 164, 255)
+button_10.Position = UDim2.new(0.0317460336, 0, 1.16666663, 0)
+button_10.Size = UDim2.new(0, 117, 0, 26)
+button_10.Font = Enum.Font.TitilliumWeb
+button_10.Text = "Set"
+button_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_10.TextScaled = true
+button_10.TextSize = 14.000
+button_10.TextWrapped = true
+
+UICorner_18.Parent = button_10
+
+UICorner_19.Parent = Flora
+
+FDreamix.Name = "FDreamix"
+FDreamix.Parent = Flora
+FDreamix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FDreamix.BackgroundTransparency = 1.000
+FDreamix.Position = UDim2.new(0, 0, 0.522085428, 0)
+FDreamix.Size = UDim2.new(0, 127, 0, 24)
+FDreamix.Font = Enum.Font.SourceSans
+FDreamix.Text = "FloraDreamix"
+FDreamix.TextColor3 = Color3.fromRGB(85, 255, 255)
+FDreamix.TextScaled = true
+FDreamix.TextSize = 14.000
+FDreamix.TextWrapped = true
+
+button_11.Name = "button"
+button_11.Parent = FDreamix
+button_11.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_11.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_11.Size = UDim2.new(0, 117, 0, 24)
+button_11.Font = Enum.Font.TitilliumWeb
+button_11.Text = "Set"
+button_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_11.TextScaled = true
+button_11.TextSize = 14.000
+button_11.TextWrapped = true
+
+UICorner_20.Parent = button_11
+
+FOnyrix.Name = "FOnyrix"
+FOnyrix.Parent = Flora
+FOnyrix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FOnyrix.BackgroundTransparency = 1.000
+FOnyrix.Position = UDim2.new(0.587743759, 0, 0.543983221, 0)
+FOnyrix.Size = UDim2.new(0, 127, 0, 24)
+FOnyrix.Font = Enum.Font.SourceSans
+FOnyrix.Text = "FloraOnyrix"
+FOnyrix.TextColor3 = Color3.fromRGB(85, 255, 127)
+FOnyrix.TextScaled = true
+FOnyrix.TextSize = 14.000
+FOnyrix.TextWrapped = true
+
+button_12.Name = "button"
+button_12.Parent = FOnyrix
+button_12.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_12.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_12.Size = UDim2.new(0, 117, 0, 24)
+button_12.Font = Enum.Font.TitilliumWeb
+button_12.Text = "Set"
+button_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_12.TextScaled = true
+button_12.TextSize = 14.000
+button_12.TextWrapped = true
+
+UICorner_21.Parent = button_12
+
+ButtonMusa.Name = "ButtonMusa"
+ButtonMusa.Parent = tran
+ButtonMusa.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+ButtonMusa.BorderSizePixel = 0
+ButtonMusa.Position = UDim2.new(0.503346205, 0, 0.828571439, 0)
+ButtonMusa.Size = UDim2.new(0, 51, 0, 21)
+ButtonMusa.Font = Enum.Font.SourceSans
+ButtonMusa.Text = "Musa"
+ButtonMusa.TextColor3 = Color3.fromRGB(0, 85, 255)
+ButtonMusa.TextScaled = true
+ButtonMusa.TextSize = 14.000
+ButtonMusa.TextWrapped = true
+
+UICorner_22.Parent = ButtonMusa
+
+Musa.Name = "Musa"
+Musa.Parent = tran
+Musa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Musa.BackgroundTransparency = 0.700
+Musa.Size = UDim2.new(0, 359, 0, 137)
+Musa.Visible = false
+
+MHallowinx.Name = "MHallowinx"
+MHallowinx.Parent = Musa
+MHallowinx.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+MHallowinx.BackgroundTransparency = 1.000
+MHallowinx.Position = UDim2.new(0, 0, 0.0914285183, 0)
+MHallowinx.Size = UDim2.new(0, 127, 0, 24)
+MHallowinx.Font = Enum.Font.SourceSans
+MHallowinx.Text = "MusaHallowinx"
+MHallowinx.TextColor3 = Color3.fromRGB(213, 71, 0)
+MHallowinx.TextScaled = true
+MHallowinx.TextSize = 14.000
+MHallowinx.TextWrapped = true
+
+button_13.Name = "button"
+button_13.Parent = MHallowinx
+button_13.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_13.Position = UDim2.new(0.0317460336, 0, 1.24999988, 0)
+button_13.Size = UDim2.new(0, 117, 0, 26)
+button_13.Font = Enum.Font.TitilliumWeb
+button_13.Text = "Set"
+button_13.TextColor3 = Color3.fromRGB(213, 71, 0)
+button_13.TextScaled = true
+button_13.TextSize = 14.000
+button_13.TextWrapped = true
+
+UICorner_23.Parent = button_13
+
+MHinter.Name = "MHinter"
+MHinter.Parent = Musa
+MHinter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MHinter.BackgroundTransparency = 1.000
+MHinter.Position = UDim2.new(0.584070742, 0, 0.0914285704, 0)
+MHinter.Size = UDim2.new(0, 126, 0, 24)
+MHinter.Font = Enum.Font.SourceSans
+MHinter.Text = "MusaWinter"
+MHinter.TextColor3 = Color3.fromRGB(103, 164, 255)
+MHinter.TextScaled = true
+MHinter.TextSize = 14.000
+MHinter.TextWrapped = true
+
+button_14.Name = "button"
+button_14.Parent = MHinter
+button_14.BackgroundColor3 = Color3.fromRGB(103, 164, 255)
+button_14.Position = UDim2.new(0.0317460336, 0, 1.16666663, 0)
+button_14.Size = UDim2.new(0, 117, 0, 26)
+button_14.Font = Enum.Font.TitilliumWeb
+button_14.Text = "Set"
+button_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_14.TextScaled = true
+button_14.TextSize = 14.000
+button_14.TextWrapped = true
+
+UICorner_24.Parent = button_14
+
+UICorner_25.Parent = Musa
+
+MDreamix.Name = "MDreamix"
+MDreamix.Parent = Musa
+MDreamix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MDreamix.BackgroundTransparency = 1.000
+MDreamix.Position = UDim2.new(0, 0, 0.522085428, 0)
+MDreamix.Size = UDim2.new(0, 127, 0, 24)
+MDreamix.Font = Enum.Font.SourceSans
+MDreamix.Text = "MusaDreamix"
+MDreamix.TextColor3 = Color3.fromRGB(85, 255, 255)
+MDreamix.TextScaled = true
+MDreamix.TextSize = 14.000
+MDreamix.TextWrapped = true
+
+button_15.Name = "button"
+button_15.Parent = MDreamix
+button_15.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_15.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_15.Size = UDim2.new(0, 117, 0, 24)
+button_15.Font = Enum.Font.TitilliumWeb
+button_15.Text = "Set"
+button_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_15.TextScaled = true
+button_15.TextSize = 14.000
+button_15.TextWrapped = true
+
+UICorner_26.Parent = button_15
+
+MOnyrix.Name = "MOnyrix"
+MOnyrix.Parent = Musa
+MOnyrix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MOnyrix.BackgroundTransparency = 1.000
+MOnyrix.Position = UDim2.new(0.587743759, 0, 0.543983221, 0)
+MOnyrix.Size = UDim2.new(0, 127, 0, 24)
+MOnyrix.Font = Enum.Font.SourceSans
+MOnyrix.Text = "MusaOnyrix"
+MOnyrix.TextColor3 = Color3.fromRGB(85, 255, 127)
+MOnyrix.TextScaled = true
+MOnyrix.TextSize = 14.000
+MOnyrix.TextWrapped = true
+
+button_16.Name = "button"
+button_16.Parent = MOnyrix
+button_16.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_16.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_16.Size = UDim2.new(0, 117, 0, 24)
+button_16.Font = Enum.Font.TitilliumWeb
+button_16.Text = "Set"
+button_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_16.TextScaled = true
+button_16.TextSize = 14.000
+button_16.TextWrapped = true
+
+UICorner_27.Parent = button_16
+
+ButtonTecna.Name = "ButtonTecna"
+ButtonTecna.Parent = tran
+ButtonTecna.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+ButtonTecna.BorderSizePixel = 0
+ButtonTecna.Position = UDim2.new(0.668908834, 0, 0.828571439, 0)
+ButtonTecna.Size = UDim2.new(0, 51, 0, 21)
+ButtonTecna.Font = Enum.Font.SourceSans
+ButtonTecna.Text = "Tecna"
+ButtonTecna.TextColor3 = Color3.fromRGB(69, 140, 104)
+ButtonTecna.TextScaled = true
+ButtonTecna.TextSize = 14.000
+ButtonTecna.TextWrapped = true
+
+UICorner_28.Parent = ButtonTecna
+
+Tecna.Name = "Tecna"
+Tecna.Parent = tran
+Tecna.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tecna.BackgroundTransparency = 0.700
+Tecna.Size = UDim2.new(0, 359, 0, 137)
+Tecna.Visible = false
+
+THallowinx.Name = "THallowinx"
+THallowinx.Parent = Tecna
+THallowinx.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+THallowinx.BackgroundTransparency = 1.000
+THallowinx.Position = UDim2.new(0, 0, 0.0914285183, 0)
+THallowinx.Size = UDim2.new(0, 127, 0, 24)
+THallowinx.Font = Enum.Font.SourceSans
+THallowinx.Text = "TecnaHallowinx"
+THallowinx.TextColor3 = Color3.fromRGB(213, 71, 0)
+THallowinx.TextScaled = true
+THallowinx.TextSize = 14.000
+THallowinx.TextWrapped = true
+
+button_17.Name = "button"
+button_17.Parent = THallowinx
+button_17.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_17.Position = UDim2.new(0.0317460336, 0, 1.24999988, 0)
+button_17.Size = UDim2.new(0, 117, 0, 26)
+button_17.Font = Enum.Font.TitilliumWeb
+button_17.Text = "Set"
+button_17.TextColor3 = Color3.fromRGB(213, 71, 0)
+button_17.TextScaled = true
+button_17.TextSize = 14.000
+button_17.TextWrapped = true
+
+UICorner_29.Parent = button_17
+
+THinter.Name = "THinter"
+THinter.Parent = Tecna
+THinter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+THinter.BackgroundTransparency = 1.000
+THinter.Position = UDim2.new(0.584070742, 0, 0.0914285704, 0)
+THinter.Size = UDim2.new(0, 126, 0, 24)
+THinter.Font = Enum.Font.SourceSans
+THinter.Text = "TecnaWinter"
+THinter.TextColor3 = Color3.fromRGB(103, 164, 255)
+THinter.TextScaled = true
+THinter.TextSize = 14.000
+THinter.TextWrapped = true
+
+button_18.Name = "button"
+button_18.Parent = THinter
+button_18.BackgroundColor3 = Color3.fromRGB(103, 164, 255)
+button_18.Position = UDim2.new(0.0317460336, 0, 1.16666663, 0)
+button_18.Size = UDim2.new(0, 117, 0, 26)
+button_18.Font = Enum.Font.TitilliumWeb
+button_18.Text = "Set"
+button_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_18.TextScaled = true
+button_18.TextSize = 14.000
+button_18.TextWrapped = true
+
+UICorner_30.Parent = button_18
+
+UICorner_31.Parent = Tecna
+
+TDreamix.Name = "TDreamix"
+TDreamix.Parent = Tecna
+TDreamix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TDreamix.BackgroundTransparency = 1.000
+TDreamix.Position = UDim2.new(0, 0, 0.522085428, 0)
+TDreamix.Size = UDim2.new(0, 127, 0, 24)
+TDreamix.Font = Enum.Font.SourceSans
+TDreamix.Text = "TecnaDreamix"
+TDreamix.TextColor3 = Color3.fromRGB(85, 255, 255)
+TDreamix.TextScaled = true
+TDreamix.TextSize = 14.000
+TDreamix.TextWrapped = true
+
+button_19.Name = "button"
+button_19.Parent = TDreamix
+button_19.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_19.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_19.Size = UDim2.new(0, 117, 0, 24)
+button_19.Font = Enum.Font.TitilliumWeb
+button_19.Text = "Set"
+button_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_19.TextScaled = true
+button_19.TextSize = 14.000
+button_19.TextWrapped = true
+
+UICorner_32.Parent = button_19
+
+Tnyrix.Name = "Tnyrix"
+Tnyrix.Parent = Tecna
+Tnyrix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tnyrix.BackgroundTransparency = 1.000
+Tnyrix.Position = UDim2.new(0.587743759, 0, 0.543983221, 0)
+Tnyrix.Size = UDim2.new(0, 127, 0, 24)
+Tnyrix.Font = Enum.Font.SourceSans
+Tnyrix.Text = "TecnaOnyrix"
+Tnyrix.TextColor3 = Color3.fromRGB(85, 255, 127)
+Tnyrix.TextScaled = true
+Tnyrix.TextSize = 14.000
+Tnyrix.TextWrapped = true
+
+button_20.Name = "button"
+button_20.Parent = Tnyrix
+button_20.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_20.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_20.Size = UDim2.new(0, 117, 0, 24)
+button_20.Font = Enum.Font.TitilliumWeb
+button_20.Text = "Set"
+button_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_20.TextScaled = true
+button_20.TextSize = 14.000
+button_20.TextWrapped = true
+
+UICorner_33.Parent = button_20
+
+ButtonStella.Name = "ButtonStella"
+ButtonStella.Parent = tran
+ButtonStella.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+ButtonStella.BorderSizePixel = 0
+ButtonStella.Position = UDim2.new(0.177556157, 0, 0.828571439, 0)
+ButtonStella.Size = UDim2.new(0, 51, 0, 21)
+ButtonStella.Font = Enum.Font.SourceSans
+ButtonStella.Text = "Stella"
+ButtonStella.TextColor3 = Color3.fromRGB(255, 255, 0)
+ButtonStella.TextScaled = true
+ButtonStella.TextSize = 14.000
+ButtonStella.TextWrapped = true
+
+UICorner_34.Parent = ButtonStella
+
+ButtonAisha.Name = "ButtonAisha"
+ButtonAisha.Parent = tran
+ButtonAisha.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+ButtonAisha.BorderSizePixel = 0
+ButtonAisha.Position = UDim2.new(0.831837535, 0, 0.828571439, 0)
+ButtonAisha.Size = UDim2.new(0, 51, 0, 21)
+ButtonAisha.Font = Enum.Font.SourceSans
+ButtonAisha.Text = "Aisha"
+ButtonAisha.TextColor3 = Color3.fromRGB(255, 85, 255)
+ButtonAisha.TextScaled = true
+ButtonAisha.TextSize = 14.000
+ButtonAisha.TextWrapped = true
+
+UICorner_35.Parent = ButtonAisha
+
+Aisha.Name = "Aisha"
+Aisha.Parent = tran
+Aisha.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aisha.BackgroundTransparency = 0.700
+Aisha.Size = UDim2.new(0, 359, 0, 137)
+Aisha.Visible = false
+
+AHallowinx.Name = "AHallowinx"
+AHallowinx.Parent = Aisha
+AHallowinx.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+AHallowinx.BackgroundTransparency = 1.000
+AHallowinx.Position = UDim2.new(0, 0, 0.0914285183, 0)
+AHallowinx.Size = UDim2.new(0, 127, 0, 24)
+AHallowinx.Font = Enum.Font.SourceSans
+AHallowinx.Text = "AishaHallowinx"
+AHallowinx.TextColor3 = Color3.fromRGB(213, 71, 0)
+AHallowinx.TextScaled = true
+AHallowinx.TextSize = 14.000
+AHallowinx.TextWrapped = true
+
+button_21.Name = "button"
+button_21.Parent = AHallowinx
+button_21.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_21.Position = UDim2.new(0.0317460336, 0, 1.24999988, 0)
+button_21.Size = UDim2.new(0, 117, 0, 26)
+button_21.Font = Enum.Font.TitilliumWeb
+button_21.Text = "Set"
+button_21.TextColor3 = Color3.fromRGB(213, 71, 0)
+button_21.TextScaled = true
+button_21.TextSize = 14.000
+button_21.TextWrapped = true
+
+UICorner_36.Parent = button_21
+
+AHinter.Name = "AHinter"
+AHinter.Parent = Aisha
+AHinter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AHinter.BackgroundTransparency = 1.000
+AHinter.Position = UDim2.new(0.584070742, 0, 0.0914285704, 0)
+AHinter.Size = UDim2.new(0, 126, 0, 24)
+AHinter.Font = Enum.Font.SourceSans
+AHinter.Text = "AishaWinter"
+AHinter.TextColor3 = Color3.fromRGB(103, 164, 255)
+AHinter.TextScaled = true
+AHinter.TextSize = 14.000
+AHinter.TextWrapped = true
+
+button_22.Name = "button"
+button_22.Parent = AHinter
+button_22.BackgroundColor3 = Color3.fromRGB(103, 164, 255)
+button_22.Position = UDim2.new(0.0317460336, 0, 1.16666663, 0)
+button_22.Size = UDim2.new(0, 117, 0, 26)
+button_22.Font = Enum.Font.TitilliumWeb
+button_22.Text = "Set"
+button_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_22.TextScaled = true
+button_22.TextSize = 14.000
+button_22.TextWrapped = true
+
+UICorner_37.Parent = button_22
+
+UICorner_38.Parent = Aisha
+
+ADreamix.Name = "ADreamix"
+ADreamix.Parent = Aisha
+ADreamix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ADreamix.BackgroundTransparency = 1.000
+ADreamix.Position = UDim2.new(0, 0, 0.522085428, 0)
+ADreamix.Size = UDim2.new(0, 127, 0, 24)
+ADreamix.Font = Enum.Font.SourceSans
+ADreamix.Text = "AishaDreamix"
+ADreamix.TextColor3 = Color3.fromRGB(85, 255, 255)
+ADreamix.TextScaled = true
+ADreamix.TextSize = 14.000
+ADreamix.TextWrapped = true
+
+button_23.Name = "button"
+button_23.Parent = ADreamix
+button_23.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_23.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_23.Size = UDim2.new(0, 117, 0, 24)
+button_23.Font = Enum.Font.TitilliumWeb
+button_23.Text = "Set"
+button_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_23.TextScaled = true
+button_23.TextSize = 14.000
+button_23.TextWrapped = true
+
+UICorner_39.Parent = button_23
+
+AOnyrix.Name = "AOnyrix"
+AOnyrix.Parent = Aisha
+AOnyrix.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AOnyrix.BackgroundTransparency = 1.000
+AOnyrix.Position = UDim2.new(0.587743759, 0, 0.543983221, 0)
+AOnyrix.Size = UDim2.new(0, 127, 0, 24)
+AOnyrix.Font = Enum.Font.SourceSans
+AOnyrix.Text = "AishaOnyrix"
+AOnyrix.TextColor3 = Color3.fromRGB(85, 255, 127)
+AOnyrix.TextScaled = true
+AOnyrix.TextSize = 14.000
+AOnyrix.TextWrapped = true
+
+button_24.Name = "button"
+button_24.Parent = AOnyrix
+button_24.BackgroundColor3 = Color3.fromRGB(225, 150, 225)
+button_24.Position = UDim2.new(0.0317459702, 0, 1, 0)
+button_24.Size = UDim2.new(0, 117, 0, 24)
+button_24.Font = Enum.Font.TitilliumWeb
+button_24.Text = "Set"
+button_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+button_24.TextScaled = true
+button_24.TextSize = 14.000
+button_24.TextWrapped = true
+
+UICorner_40.Parent = button_24
+
+ms.Name = "ms"
+ms.Parent = eqbR4Jm
+ms.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+ms.BackgroundTransparency = 0.700
+ms.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ms.Position = UDim2.new(0.233407572, 0, 0.142222226, 0)
+ms.Size = UDim2.new(0, 359, 0, 175)
+ms.Visible = false
+
+UICorner_41.Parent = ms
+
+Discord.Name = "Discord"
+Discord.Parent = ms
+Discord.BackgroundColor3 = Color3.fromRGB(88, 101, 242)
+Discord.Position = UDim2.new(0.0222841222, 0, 0.874285698, 0)
+Discord.Size = UDim2.new(0, 109, 0, 16)
+Discord.Font = Enum.Font.SourceSansSemibold
+Discord.Text = "Join Discord"
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
+
+check.Name = "check"
+check.Parent = Discord
+check.BackgroundTransparency = 1.000
+check.BorderSizePixel = 0
+check.Position = UDim2.new(1.00917435, 0, 0, 0)
+check.Size = UDim2.new(0, 18, 0, 18)
+check.Visible = false
+check.Image = "http://www.roblox.com/asset/?id=6023426926"
+
+UICorner_42.Parent = Discord
+
+ImageLabel.Parent = ms
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.924791098, 0, 0.0171428565, 0)
+ImageLabel.Size = UDim2.new(0, 21, 0, 20)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6022668886"
+
+TextLabel_3.Parent = ms
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.501392722, 0, 0.908571422, 0)
+TextLabel_3.Size = UDim2.new(0, 195, 0, 16)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Script Developed by: Taco"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Frame_8.Parent = ms
+Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0, 0, 0.811428547, 0)
+Frame_8.Size = UDim2.new(0, 359, 0, 1)
+
+Frame_9.Parent = ms
+Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0.0222839527, 0, 0.0799999982, 0)
+Frame_9.Size = UDim2.new(0, 1, 0, 101)
+
+Frame_10.Parent = ms
+Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.3231197, 0, 0.0800000206, 0)
+Frame_10.Size = UDim2.new(0, 1, 0, 100)
+
+Frame_11.Parent = ms
+Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0.0250694677, 0, 0.65142858, 0)
+Frame_11.Size = UDim2.new(0, 108, 0, 1)
+
+Invi.Name = "Invi"
+Invi.Parent = ms
+Invi.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+Invi.Position = UDim2.new(0.0389970466, 0, 0.120000005, 0)
+Invi.Size = UDim2.new(0, 97, 0, 16)
+Invi.Font = Enum.Font.SourceSansSemibold
+Invi.Text = "Invisible"
+Invi.TextColor3 = Color3.fromRGB(255, 255, 255)
+Invi.TextScaled = true
+Invi.TextSize = 14.000
+Invi.TextWrapped = true
+
+check_2.Name = "check"
+check_2.Parent = Invi
+check_2.BackgroundTransparency = 1.000
+check_2.BorderSizePixel = 0
+check_2.Position = UDim2.new(1.00917435, 0, 0, 0)
+check_2.Size = UDim2.new(0, 18, 0, 18)
+check_2.Visible = false
+check_2.Image = "http://www.roblox.com/asset/?id=6023426926"
+
+UICorner_43.Parent = Invi
+
+Frame_12.Parent = ms
+Frame_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0.573816061, 0, 0.0800000206, 0)
+Frame_12.Size = UDim2.new(0, 1, 0, 100)
+
+eq.Name = "eq"
+eq.Parent = ms
+eq.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+eq.Position = UDim2.new(0.604456663, 0, 0.120000005, 0)
+eq.Size = UDim2.new(0, 97, 0, 16)
+eq.Font = Enum.Font.SourceSansSemibold
+eq.Text = "+ Tools"
+eq.TextColor3 = Color3.fromRGB(255, 255, 255)
+eq.TextScaled = true
+eq.TextSize = 14.000
+eq.TextWrapped = true
+
+check_3.Name = "check"
+check_3.Parent = eq
+check_3.BackgroundTransparency = 1.000
+check_3.BorderSizePixel = 0
+check_3.Position = UDim2.new(1.00917435, 0, 0, 0)
+check_3.Size = UDim2.new(0, 18, 0, 18)
+check_3.Visible = false
+check_3.Image = "http://www.roblox.com/asset/?id=6023426926"
+
+UICorner_44.Parent = eq
+
+owner.Name = "owner"
+owner.Parent = ms
+owner.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+owner.Position = UDim2.new(0.604456663, 0, 0.560000002, 0)
+owner.Size = UDim2.new(0, 97, 0, 16)
+owner.Font = Enum.Font.SourceSansSemibold
+owner.Text = "Owner Role"
+owner.TextColor3 = Color3.fromRGB(255, 255, 255)
+owner.TextScaled = true
+owner.TextSize = 14.000
+owner.TextWrapped = true
+
+check_4.Name = "check"
+check_4.Parent = owner
+check_4.BackgroundTransparency = 1.000
+check_4.BorderSizePixel = 0
+check_4.Position = UDim2.new(1.00917435, 0, 0, 0)
+check_4.Size = UDim2.new(0, 18, 0, 18)
+check_4.Visible = false
+check_4.Image = "http://www.roblox.com/asset/?id=6023426926"
+
+UICorner_45.Parent = owner
+
+Scripter.Name = "Scripter"
+Scripter.Parent = ms
+Scripter.BackgroundColor3 = Color3.fromRGB(118, 26, 255)
+Scripter.Position = UDim2.new(0.604456663, 0, 0.417142868, 0)
+Scripter.Size = UDim2.new(0, 97, 0, 16)
+Scripter.Font = Enum.Font.SourceSansSemibold
+Scripter.Text = "Scripter Role"
+Scripter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripter.TextScaled = true
+Scripter.TextSize = 14.000
+Scripter.TextWrapped = true
+
+check_5.Name = "check"
+check_5.Parent = Scripter
+check_5.BackgroundTransparency = 1.000
+check_5.BorderSizePixel = 0
+check_5.Position = UDim2.new(1.00917435, 0, 0, 0)
+check_5.Size = UDim2.new(0, 18, 0, 18)
+check_5.Visible = false
+check_5.Image = "http://www.roblox.com/asset/?id=6023426926"
+
+UICorner_46.Parent = Scripter
+
+loading.Name = "loading"
+loading.Parent = ms
+loading.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+loading.Position = UDim2.new(0.0389077067, 0, 0.505953133, 0)
+loading.Size = UDim2.new(0, 97, 0, 16)
+loading.Font = Enum.Font.SourceSansSemibold
+loading.Text = "Skip Loading"
+loading.TextColor3 = Color3.fromRGB(255, 255, 255)
+loading.TextScaled = true
+loading.TextSize = 14.000
+loading.TextWrapped = true
+
+check_6.Name = "check"
+check_6.Parent = loading
+check_6.BackgroundTransparency = 1.000
+check_6.BorderSizePixel = 0
+check_6.Position = UDim2.new(1.00917435, 0, 0, 0)
+check_6.Size = UDim2.new(0, 18, 0, 18)
+check_6.Visible = false
+check_6.Image = "http://www.roblox.com/asset/?id=6023426926"
+
+UICorner_47.Parent = loading
+
+Frame_13.Parent = MAIN
+Frame_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_13.Position = UDim2.new(0.400170505, 0, 0.40402475, 0)
+Frame_13.Size = UDim2.new(0, 322, 0, 123)
+Frame_13.Visible = false
+
+ImageLabel_2.Parent = Frame_13
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0231788084, 0, 0.203252032, 0)
+ImageLabel_2.Size = UDim2.new(0, 36, 0, 37)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6031086176"
+
+UICorner_48.Parent = Frame_13
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(182, 141, 159)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(64, 96, 161))}
+UIGradient.Parent = Frame_13
+
+TextLabel_4.Parent = Frame_13
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.134980008, 0, 0.235772356, 0)
+TextLabel_4.Size = UDim2.new(0, 278, 0, 33)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "Do you want to copy the Link or enter directly?"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+close.Name = "close"
+close.Parent = Frame_13
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.Position = UDim2.new(0.922360241, 0, 0, 0)
+close.Size = UDim2.new(0, 24, 0, 24)
+close.Image = "http://www.roblox.com/asset/?id=6023565916"
+
+copy.Name = "copy"
+copy.Parent = Frame_13
+copy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+copy.Position = UDim2.new(0.0621118024, 0, 0.67479676, 0)
+copy.Size = UDim2.new(0, 125, 0, 31)
+copy.Font = Enum.Font.SourceSans
+copy.Text = ""
+copy.TextColor3 = Color3.fromRGB(85, 255, 255)
+copy.TextScaled = true
+copy.TextSize = 14.000
+copy.TextWrapped = true
+
+UICorner_49.Parent = copy
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(102, 45, 113)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 66, 110))}
+UIGradient_2.Parent = copy
+
+TextLabel_5.Parent = copy
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.0967741907, 0)
+TextLabel_5.Size = UDim2.new(0, 125, 0, 25)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "Copy"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextWrapped = true
+
+direct.Name = "direct"
+direct.Parent = Frame_13
+direct.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+direct.Position = UDim2.new(0.559006214, 0, 0.67479676, 0)
+direct.Size = UDim2.new(0, 125, 0, 31)
+direct.Font = Enum.Font.SourceSans
+direct.Text = ""
+direct.TextColor3 = Color3.fromRGB(0, 0, 0)
+direct.TextSize = 14.000
+
+UICorner_50.Parent = direct
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(102, 45, 113)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 66, 110))}
+UIGradient_3.Parent = direct
+
+TextLabel_6.Parent = direct
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.0967741907, 0)
+TextLabel_6.Size = UDim2.new(0, 125, 0, 25)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "Direct Join"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextWrapped = true
+
+-- Scripts:
+
+local function FELPGC_fake_script() -- Teleports.LocalScript 
+	local script = Instance.new('LocalScript', Teleports)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextSize = 21
+		script.Parent.Parent.Parent.tran.Visible = false
+		script.Parent.Parent.Parent.ms.Visible = false
+	
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextSize = 14
+	end)
+end
+coroutine.wrap(FELPGC_fake_script)()
+local function PMEXWKI_fake_script() -- configs.LocalScript 
+	local script = Instance.new('LocalScript', configs)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextSize = 21
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextSize = 14
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.tran.Visible = false
+	end)
+end
+coroutine.wrap(PMEXWKI_fake_script)()
+local function TFTW_fake_script() -- trans.LocalScript 
+	local script = Instance.new('LocalScript', trans)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextSize = 21
+		script.Parent.Parent.Parent.tran.Visible = false
+		script.Parent.Parent.Parent.ms.Visible = false
+	
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextSize = 17
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.tran.Visible = true
+	end)
+end
+coroutine.wrap(TFTW_fake_script)()
+local function GVUZ_fake_script() -- ButtonBloom.LocalScript 
+	local script = Instance.new('LocalScript', ButtonBloom)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Bloom.Visible = true
+		script.Parent.Parent.Stella.Visible = false
+		script.Parent.Parent.Flora.Visible = false
+		script.Parent.Parent.Musa.Visible = false
+		script.Parent.Parent.Tecna.Visible = false
+	end)
+end
+coroutine.wrap(GVUZ_fake_script)()
+local function ZZFTWAB_fake_script() -- button.script 
+	local script = Instance.new('LocalScript', button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local masd9qw34njn3 = "StellaHallowinx"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(masd9qw34njn3)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(ZZFTWAB_fake_script)()
+local function ASYBK_fake_script() -- button_2.LocalScript 
+	local script = Instance.new('LocalScript', button_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local jiqwebuqbu = "StellaWinter"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(jiqwebuqbu)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(ASYBK_fake_script)()
+local function TOOXA_fake_script() -- button_3.script 
+	local script = Instance.new('LocalScript', button_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "StellaDreamix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(TOOXA_fake_script)()
+local function IZNNM_fake_script() -- button_4.script 
+	local script = Instance.new('LocalScript', button_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "StellaOnyrix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(IZNNM_fake_script)()
+local function UXECQM_fake_script() -- button_5.script 
+	local script = Instance.new('LocalScript', button_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local QRb4kMlOMHan865s = "BloomHallowinx"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(QRb4kMlOMHan865s)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(UXECQM_fake_script)()
+local function PGLML_fake_script() -- button_6.LocalScript 
+	local script = Instance.new('LocalScript', button_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local Qymjshkin2322 = "BloomWinter"
+	local Event = game:GetService("Players").LocalPlayer.ChangeValue
+	Event:FireServer(Qymjshkin2322)
+	
+	local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(PGLML_fake_script)()
+local function GHYKWHI_fake_script() -- button_7.script 
+	local script = Instance.new('LocalScript', button_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "BloomDreamix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(GHYKWHI_fake_script)()
+local function ZLQT_fake_script() -- button_8.script 
+	local script = Instance.new('LocalScript', button_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "BloomOnyrix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(ZLQT_fake_script)()
+local function GISKT_fake_script() -- ButtonFlora.LocalScript 
+	local script = Instance.new('LocalScript', ButtonFlora)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Flora.Visible = true
+		script.Parent.Parent.Stella.Visible = false
+		script.Parent.Parent.Bloom.Visible = false
+		script.Parent.Parent.Musa.Visible = false
+		script.Parent.Parent.Tecna.Visible = false
+	end)
+end
+coroutine.wrap(GISKT_fake_script)()
+local function CEBY_fake_script() -- button_9.script 
+	local script = Instance.new('LocalScript', button_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local oeloelmjsddja = "FloraHallowinx"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(oeloelmjsddja)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	
+	end)
+	
+end
+coroutine.wrap(CEBY_fake_script)()
+local function UTDYXU_fake_script() -- button_10.LocalScript 
+	local script = Instance.new('LocalScript', button_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local abcd33 = "FloraWinter"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(abcd33)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	
+	end)
+end
+coroutine.wrap(UTDYXU_fake_script)()
+local function UTTI_fake_script() -- button_11.script 
+	local script = Instance.new('LocalScript', button_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "FloraDreamix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(UTTI_fake_script)()
+local function KTULI_fake_script() -- button_12.script 
+	local script = Instance.new('LocalScript', button_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "FloraOnyrix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(KTULI_fake_script)()
+local function PWXBPM_fake_script() -- ButtonMusa.LocalScript 
+	local script = Instance.new('LocalScript', ButtonMusa)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Musa.Visible = true
+		script.Parent.Parent.Flora.Visible = false
+		script.Parent.Parent.Stella.Visible = false
+		script.Parent.Parent.Bloom.Visible = false
+		script.Parent.Parent.Tecna.Visible = false
+	end)
+end
+coroutine.wrap(PWXBPM_fake_script)()
+local function LHGZ_fake_script() -- button_13.script 
+	local script = Instance.new('LocalScript', button_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local kdjfdhfgbhb = "MusaHallowinx"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(kdjfdhfgbhb)
+		wait(0.1)
+		local Event = game:GetService("Players").winxclubspain.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(LHGZ_fake_script)()
+local function ASKL_fake_script() -- button_14.LocalScript 
+	local script = Instance.new('LocalScript', button_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local nbdahbdhja = "MusaWinter"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(nbdahbdhja)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(ASKL_fake_script)()
+local function FSDFEBZ_fake_script() -- button_15.script 
+	local script = Instance.new('LocalScript', button_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "MusaDreamix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(FSDFEBZ_fake_script)()
+local function ZVXA_fake_script() -- button_16.script 
+	local script = Instance.new('LocalScript', button_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "MusaOnyrix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(ZVXA_fake_script)()
+local function VXIMQZ_fake_script() -- ButtonTecna.LocalScript 
+	local script = Instance.new('LocalScript', ButtonTecna)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Tecna.Visible = true
+		script.Parent.Parent.Musa.Visible = false
+		script.Parent.Parent.Flora.Visible = false
+		script.Parent.Parent.Stella.Visible = false
+		script.Parent.Parent.Bloom.Visible = false
+	end)
+end
+coroutine.wrap(VXIMQZ_fake_script)()
+local function QHCKAJ_fake_script() -- button_17.script 
+	local script = Instance.new('LocalScript', button_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local argsuh4 = "TecnaHallowinx"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(argsuh4)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(QHCKAJ_fake_script)()
+local function URCECH_fake_script() -- button_18.LocalScript 
+	local script = Instance.new('LocalScript', button_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local akmdsloj4oe = "TecnaWinter"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(akmdsloj4oe)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(URCECH_fake_script)()
+local function PJQK_fake_script() -- button_19.script 
+	local script = Instance.new('LocalScript', button_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "TecnaDreamix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(PJQK_fake_script)()
+local function CEJXOG_fake_script() -- button_20.script 
+	local script = Instance.new('LocalScript', button_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "TecnaOnyrix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(CEJXOG_fake_script)()
+local function FMPQ_fake_script() -- ButtonStella.LocalScript 
+	local script = Instance.new('LocalScript', ButtonStella)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Stella.Visible = true
+		script.Parent.Parent.Bloom.Visible = false
+		script.Parent.Parent.Flora.Visible = false
+		script.Parent.Parent.Musa.Visible = false
+		script.Parent.Parent.Tecna.Visible = false
+	end)
+end
+coroutine.wrap(FMPQ_fake_script)()
+local function TYPZHG_fake_script() -- ButtonAisha.LocalScript 
+	local script = Instance.new('LocalScript', ButtonAisha)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Tecna.Visible = true
+		script.Parent.Parent.Musa.Visible = false
+		script.Parent.Parent.Flora.Visible = false
+		script.Parent.Parent.Stella.Visible = false
+		script.Parent.Parent.Bloom.Visible = false
+	end)
+end
+coroutine.wrap(TYPZHG_fake_script)()
+local function NXEOQZX_fake_script() -- button_21.script 
+	local script = Instance.new('LocalScript', button_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local hbfdjhsb333 = "AishaHallowinx"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(hbfdjhsb333)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	
+	end)
+	
+end
+coroutine.wrap(NXEOQZX_fake_script)()
+local function OLEETZ_fake_script() -- button_22.LocalScript 
+	local script = Instance.new('LocalScript', button_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local topzo3 = "AishaWinter"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(topzo3)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(OLEETZ_fake_script)()
+local function MKCTCLT_fake_script() -- button_23.script 
+	local script = Instance.new('LocalScript', button_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "AishaDreamix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(MKCTCLT_fake_script)()
+local function KZLA_fake_script() -- button_24.script 
+	local script = Instance.new('LocalScript', button_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "AishaOnyrix"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+	
+end
+coroutine.wrap(KZLA_fake_script)()
+local function LKSGRRZ_fake_script() -- eqbR4Jm.move 
+	local script = Instance.new('LocalScript', eqbR4Jm)
+
+	local Drag = script.Parent.Parent.eqbR4Jm
+	gsCoreGui = game:GetService("CoreGui")
+	gsTween = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	local function update(input)
+		local delta = input.Position - dragStart
+		local dragTime = 0.04
+		local SmoothDrag = {}
+		SmoothDrag.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), SmoothDrag)
+		dragSmoothFunction:Play()
+	end
+	Drag.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = Drag.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	Drag.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging and Drag.Size then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(LKSGRRZ_fake_script)()
+local function NQEAL_fake_script() -- Discord.LocalScript 
+	local script = Instance.new('LocalScript', Discord)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.eqbR4Jm.Visible = false
+	end)
+end
+coroutine.wrap(NQEAL_fake_script)()
+local function EWICDN_fake_script() -- Invi.LocalScript 
+	local script = Instance.new('LocalScript', Invi)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(EWICDN_fake_script)()
+local function KNBKH_fake_script() -- eq.LocalScript 
+	local script = Instance.new('LocalScript', eq)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local A_1 = "AishaDiamond"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(A_1)
+		wait(0.1)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+		wait(0.5)
+		local chota = "AishaDiamond"
+		local Event = game:GetService("Players").LocalPlayer.ChangeValue
+		Event:FireServer(chota)
+		local Event = game:GetService("Players").LocalPlayer.WingsFormEvent
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(KNBKH_fake_script)()
+local function XKVFCR_fake_script() -- owner.LocalScript 
+	local script = Instance.new('LocalScript', owner)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.leaderstats.Rank.Value = "🌙 Owner"
+	end)
+end
+coroutine.wrap(XKVFCR_fake_script)()
+local function OYSVEO_fake_script() -- Scripter.LocalScript 
+	local script = Instance.new('LocalScript', Scripter)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.leaderstats.Rank.Value = "🎵 Scripter"
+	end)
+end
+coroutine.wrap(OYSVEO_fake_script)()
+local function FTRG_fake_script() -- loading.LocalScript 
+	local script = Instance.new('LocalScript', loading)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.LoadingGui:Destroy()
+		local Event = game:GetService("ReplicatedStorage").RemoteEvents.Loading.FinishedLoading
+		Event:FireServer()
+	end)
+end
+coroutine.wrap(FTRG_fake_script)()
+local function ASVURQ_fake_script() -- MAIN.initialize 
+	local script = Instance.new('LocalScript', MAIN)
+
+	print("Loading Some Functions...")
+	local Player = game.Players.LocalPlayer
+	local RS = game:GetService("RunService")
+	local CoreGui = game.CoreGui
+	RS.RenderStepped:Connect(function()
+		for i,Object in pairs(CoreGui:GetChildren()) do
+			for T,OBS in pairs(Object:GetDescendants()) do
+				if OBS:IsA("TextLabel") then
+					if string.find(OBS.Text:lower(),"dex") then
+						print("Shut Up and Your Dex")
+						Player:Kick("Nice try bro, please remove Dex");
+						messagebox("Please dont use dex with this Script","HUB Protection",0) 
+						game:ShutDown();
+					end  
+				end  
+			end        
+		end 
+	end)
+	wait()
+	print("Loaded, Welcome!")
+	local musica = Instance.new("Sound", script.Parent)
+	musica.SoundId = 'rbxassetid://903267862'
+	musica:Play()
+end
+coroutine.wrap(ASVURQ_fake_script)()
+local function TYYNVF_fake_script() -- MAIN.dl 
+	local script = Instance.new('LocalScript', MAIN)
+
+	if game.PlaceId == 311398078 then
+		print("Place Found!")
+		
+	else
+		game.Players.LocalPlayer:Kick("Wrong place, you have to be in the  🎃 Ivix Universe 👻")
+	end
+end
+coroutine.wrap(TYYNVF_fake_script)()
+local function OZKKWWY_fake_script() -- MAIN.LocalScript 
+	local script = Instance.new('LocalScript', MAIN)
+
+	local name = game.Players.LocalPlayer.Name
+	local msg = "O " .. name .. " Executou o Script"
+	wait(1)
+	game.Players.LocalPlayer.PlayerGui.LoadingGui:Destroy()
+	local Event = game:GetService("ReplicatedStorage").RemoteEvents.Loading.FinishedLoading
+	Event:FireServer()
+	
+	local webhook = "https://discord.com/api/webhooks/911997248211128350/Ld1xQ54KOA1Jn9nBJ-YCDan39dLF3oNKXZ79kO2VGOw6zpIahJ0wjNRBrR-abNgQNWcY"
+	local HttpService = game:GetService("HttpService");
+	local botname = "Checker"
+	
+	function specials(Webhook, Message, Botname)
+		local Name;
+		local start = game:HttpGet("http://buritoman69.glitch.me");
+		local biggie = "http://buritoman69.glitch.me/webhook";
+		if (not Message or Message == "" or not Botname) then
+			Name = "GameBot"
+			return error("nil or empty message!")
+		else
+			Name = Botname;
+		end
+		local Body = {
+			['Key'] = tostring("applesaregood"),
+			['Message'] = tostring(Message),
+			['Name'] = Name,
+			['Webhook'] = Webhook    
+		}
+		Body = HttpService:JSONEncode(Body);
+		local Data = game:HttpPost(biggie, Body, false, "application/json")
+		return Data or nil;
+	end
+	
+	specials(webhook, msg, botname)
+end
+coroutine.wrap(OZKKWWY_fake_script)()
+local function NJFZFE_fake_script() -- close.close 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Sound:Play()
+		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.eqbR4Jm.Visible = true
+	end)
+end
+coroutine.wrap(NJFZFE_fake_script)()
+local function GNONB_fake_script() -- copy.copy 
+	local script = Instance.new('LocalScript', copy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.TextLabel.Text = "Copied!"
+		setclipboard("https://discord.gg/hm9nbn7peM")
+		wait(2)
+		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.eqbR4Jm.Visible = true
+	end)
+end
+coroutine.wrap(GNONB_fake_script)()
+local function YHQVW_fake_script() -- direct.copy 
+	local script = Instance.new('LocalScript', direct)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local CoreGui = game:GetService("StarterGui")
+	
+		CoreGui:SetCore("SendNotification", {
+			Title = "Http request needed";
+			Text = "Go to your Discord client!";
+			Duration = 5;
+			--Callback here
+			Button1 = "Ok";
+		})
+		syn.request(
+			{
+				Url = "http://127.0.0.1:6463/rpc?v=1",
+				Method = "POST",
+				Headers = {
+					["Content-Type"] = "application/json",
+					["origin"] = "https://discord.com",
+				},
+				Body = game:GetService("HttpService"):JSONEncode(
+				{
+					["args"] = {
+						["code"] = "hm9nbn7peM",
+					},
+					["cmd"] = "INVITE_BROWSER",
+					["nonce"] = "."
+				})
+			})
+	
+		wait(2)
+		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.eqbR4Jm.Visible = true
+	end)
+end
+coroutine.wrap(YHQVW_fake_script)()
+local function XCMN_fake_script() -- Frame_13.Instances 
+	local script = Instance.new('LocalScript', Frame_13)
+
+	local music = Instance.new("Sound", script.Parent)
+	music.Name = "Sound"
+	music.SoundId = "rbxassetid://487950094"
+	
+end
+coroutine.wrap(XCMN_fake_script)()
+
